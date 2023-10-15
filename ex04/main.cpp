@@ -3,10 +3,16 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+        */
+/*   By: zsyyida <zsyyida@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 14:12:53 by zsyyida           #+#    #+#             */
-/*   Updated: 2023/10/09 14:12:54 by zsyyida          ###   ########.fr       */
+/*   Updated: 2023/10/14 16:34:55 by zsyyida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include <iostream>
+
+int main(std::string filename, std::string s1, std::string s2)
+{
+    
+}
