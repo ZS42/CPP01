@@ -3,22 +3,21 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+         #
+#    By: zsyyida <zsyyida@student.42abudhabi.ae>    +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 14:13:17 by zsyyida           #+#    #+#              #
-#    Updated: 2023/10/09 14:15:12 by zsyyida          ###   ########.fr        #
+#    Updated: 2023/10/15 14:39:42 by zsyyida          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = megaphone
-
+NAME = harl
 
 CXX = c++
 RM	= rm -rf
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
 
-SRCS = megaphone.cpp
+SRCS = main.cpp Harl.cpp
 
 OBJS := $(SRCS:.cpp=.o)
 
