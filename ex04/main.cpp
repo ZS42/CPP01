@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   main.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zsyyida <zsyyida@student.42abudhabi.ae>    +#+  +:+       +#+        */
+/*   By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 14:12:53 by zsyyida           #+#    #+#             */
-/*   Updated: 2023/10/16 12:07:16 by zsyyida          ###   ########.fr       */
+/*   Updated: 2023/10/16 15:51:19 by zsyyida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ int main(int ac , char **av)
     {
         std::string filename = av[1];
         MySed   sed(filename);
-        sed.replace(av[2], av[3]);
+        sed.myReplace(av[2], av[3]);
     }
     return (0);
 }
