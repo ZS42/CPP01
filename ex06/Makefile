@@ -3,10 +3,10 @@
 #                                                         :::      ::::::::    #
 #    Makefile                                           :+:      :+:    :+:    #
 #                                                     +:+ +:+         +:+      #
-#    By: zsyyida <zsyyida@student.42abudhabi.ae>    +#+  +:+       +#+         #
+#    By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 14:13:44 by zsyyida           #+#    #+#              #
-#    Updated: 2023/10/15 17:19:17 by zsyyida          ###   ########.fr        #
+#    Updated: 2023/10/16 16:41:52 by zsyyida          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ CXX = c++
 RM	= rm -rf
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
+#-fsanitize=address
 
 SRCS = main.cpp Harl.cpp
 

@@ -6,7 +6,7 @@
 #    By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/10/09 14:11:29 by zsyyida           #+#    #+#              #
-#    Updated: 2023/10/10 15:12:34 by zsyyida          ###   ########.fr        #
+#    Updated: 2023/10/16 16:15:41 by zsyyida          ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -17,6 +17,7 @@ CXX = c++
 RM	= rm -rf
 
 CXXFLAGS = -Wall -Wextra -Werror -std=c++98
+#-fsanitize=address
 
 SRCS = main.cpp
 

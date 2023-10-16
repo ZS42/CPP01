@@ -3,21 +3,21 @@
 /*                                                        :::      ::::::::   */
 /*   Harl.cpp                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: zsyyida <zsyyida@student.42abudhabi.ae>    +#+  +:+       +#+        */
+/*   By: zsyyida <zsyyida@student42abudhabi.ae>     +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 14:13:26 by zsyyida           #+#    #+#             */
-/*   Updated: 2023/10/15 18:41:48 by zsyyida          ###   ########.fr       */
+/*   Updated: 2023/10/16 16:40:02 by zsyyida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
 
 Harl::Harl()
-{ 
-}  
+{
+}
 
 Harl::~Harl()
-{   
+{
 }
 
 void Harl::debug( void )
@@ -55,14 +55,13 @@ void Harl::error( void )
 void Harl::complain( std::string  string)
 {
     int choice;
-    
+
     // Make an array of all possible levels
     std::string level[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
     // Since switch statements only work with integers we need to convert the input strings to integers
-    choice = -1;
+    choice = 0;
     while (choice < 4 && level[choice].compare(string))
-        choice++;
-    // std::cout << choice << std::endl;
+		choice++;
     switch (choice)
     {
         case 0:
