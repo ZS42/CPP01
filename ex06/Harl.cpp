@@ -6,7 +6,7 @@
 /*   By: zsyyida <zsyyida@student.42abudhabi.ae>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/10/09 14:13:26 by zsyyida           #+#    #+#             */
-/*   Updated: 2023/10/15 18:29:40 by zsyyida          ###   ########.fr       */
+/*   Updated: 2023/10/15 18:41:48 by zsyyida          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -58,6 +58,7 @@ void Harl::complain( std::string  string)
     
     // Make an array of all possible levels
     std::string level[4] = {"DEBUG", "INFO", "WARNING", "ERROR"};
+    // Since switch statements only work with integers we need to convert the input strings to integers
     choice = -1;
     while (choice < 4 && level[choice].compare(string))
         choice++;
